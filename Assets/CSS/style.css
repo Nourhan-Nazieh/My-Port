@@ -358,8 +358,11 @@ max-width: 50px;
 padding-top:20px ;
 }
 
-
-
+/* ـــــــــ Skillsــــــ*/
+#skills .container .skills-content .row{
+    padding-left: 20px;
+    margin: auto;
+}
 
 
 /* ـــــــــــــــــــــServicesــــــــــــــــــــــ */

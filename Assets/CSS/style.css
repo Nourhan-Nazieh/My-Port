@@ -796,6 +796,13 @@ header .navbary nav{
 
 }
 
+/* ـــــــــ Skillsــــــ*/
+#skills .container .skills-content .row{
+    padding-left: 10px;
+    margin: auto;
+}
+
+
 /*ـــــــServicesـــــــــ */
 
 #services h3{

@@ -316,7 +316,6 @@ line-height: 1.8;
     grid-template-columns: repeat(4,1fr); 
     align-items: center;
     text-align: center;
-    padding-left: 30px;
     padding-bottom: 20px;
     align-items: center;
     text-align: center;
@@ -513,8 +512,6 @@ padding: 10px;
     border-radius: 50px 0 50px 0;
     padding-top:0px ;
     border-bottom: 3px solid #e1e1e1;
-  
-
 }
 
 /* ــــــــــــــــــــContactــــــــــــــــــــــ */
@@ -652,7 +649,6 @@ header .navbary nav{
  #skills .container .skills-content .row{
     padding-top: 20px;
     display: grid;
-    /* لو عاوزة الكولوم يجو اتنين جمب بعض */
     grid-template-columns: repeat(2,1fr); 
     padding-left:30px ;
     padding-bottom: 20px;
@@ -798,7 +794,7 @@ header .navbary nav{
 
 /* ـــــــــ Skillsــــــ*/
 #skills .container .skills-content .row{
-    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
 }
 
@@ -855,4 +851,17 @@ header .navbary nav{
     background-color: #2872711a;
 }
 
+}
+
+/* Scroll-up */
+.scroll-top{
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    background-color: #3a6b6baa;
+    padding: 7px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.533);
 }
